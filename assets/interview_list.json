@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "candidateName": "Riya Sharma",
+        "roundType": "L1",
+        "interviewStatus": "COMPLETED",
+        "score": 8.5,
+        "comment": "Strong problem-solving skills",
+        "interviewSlot": "SLOT_1"
+    },
+    {
+        "id": 2,
+        "candidateName": "Amit Verma",
+        "roundType": "L2",
+        "interviewStatus": "SCHEDULED",
+        "score": 4.0,
+        "comment": null,
+        "interviewSlot": "MORNING"
+    },
+    {
+        "id": 3,
+        "candidateName": "Sneha Patel",
+        "roundType": "GD",
+        "interviewStatus": "COMPLETED",
+        "score": 7.8,
+        "comment": "Good communication and team presence",
+        "interviewSlot": "EVENING"
+    },
+    {
+        "id": 4,
+        "candidateName": "Vikas Singh",
+        "roundType": "HR",
+        "interviewStatus": "SELECTED",
+        "score": 9.1,
+        "comment": "Confident and well-spoken; fits company culture",
+        "interviewSlot": "AFTERNOON"
+    },
+    {
+        "id": 5,
+        "candidateName": "Neha Mehta",
+        "roundType": "L2",
+        "interviewStatus": "REJECTED",
+        "score": 5.0,
+        "comment": "Lacked depth in technical answers",
+        "interviewSlot": "SLOT_2"
+    },
+    {
+        "id": 6,
+        "candidateName": "Rohan Das",
+        "roundType": "L1",
+        "interviewStatus": "COMPLETED",
+        "score": 8.2,
+        "comment": "Strong Java fundamentals, needs work on databases",
+        "interviewSlot": "SLOT_3"
+    },
+    {
+        "id": 7,
+        "candidateName": "Pooja Nair",
+        "roundType": "HR",
+        "interviewStatus": "SCHEDULED",
+        "score": null,
+        "comment": null,
+        "interviewSlot": "MORNING"
+    },
+    {
+        "id": 8,
+        "candidateName": "Abhishek Yadav",
+        "roundType": "GD",
+        "interviewStatus": "REJECTED",
+        "score": 4.3,
+        "comment": "Dominated discussion; poor listening",
+        "interviewSlot": "SLOT_4"
+    },
+    {
+        "id": 9,
+        "candidateName": "Tanvi Joshi",
+        "roundType": "L2",
+        "interviewStatus": "COMPLETED",
+        "score": 8.0,
+        "comment": "Efficient coding style and analytical thinking",
+        "interviewSlot": "SLOT_5"
+    },
+    {
+        "id": 10,
+        "candidateName": "Arjun Kapoor",
+        "roundType": "L1",
+        "interviewStatus": "SELECTED",
+        "score": 9.3,
+        "comment": "Excellent data structures knowledge",
+        "interviewSlot": "EVENING"
+    },
+    {
+        "id": 11,
+        "candidateName": "Kriti Menon",
+        "roundType": "GD",
+        "interviewStatus": "CANCELLED",
+        "score": null,
+        "comment": "Candidate did not join",
+        "interviewSlot": "SLOT_2"
+    },
+    {
+        "id": 12,
+        "candidateName": "Sandeep Roy",
+        "roundType": "L1",
+        "interviewStatus": "COMPLETED",
+        "score": 6.7,
+        "comment": "Average logic; needs clarity on OOP concepts",
+        "interviewSlot": "AFTERNOON"
+    },
+    {
+        "id": 13,
+        "candidateName": "Priya Iyer",
+        "roundType": "HR",
+        "interviewStatus": "REJECTED",
+        "score": 6.0,
+        "comment": "Good technically but lacked enthusiasm",
+        "interviewSlot": "SLOT_3"
+    },
+    {
+        "id": 14,
+        "candidateName": "Nikhil Bansal",
+        "roundType": "L2",
+        "interviewStatus": "SELECTED",
+        "score": 9.0,
+        "comment": "Excellent problem-solving and code optimization",
+        "interviewSlot": "SLOT_4"
+    },
+    {
+        "id": 15,
+        "candidateName": "Divya Rao",
+        "roundType": "GD",
+        "interviewStatus": "COMPLETED",
+        "score": 8.4,
+        "comment": "Collaborative and thoughtful speaker",
+        "interviewSlot": "MORNING"
+    },
+    {
+        "id": 16,
+        "candidateName": "Harsh Malhotra",
+        "roundType": "L1",
+        "interviewStatus": "SCHEDULED",
+        "score": null,
+        "comment": null,
+        "interviewSlot": "SLOT_1"
+    },
+    {
+        "id": 17,
+        "candidateName": "Simran Kaur",
+        "roundType": "L2",
+        "interviewStatus": "COMPLETED",
+        "score": 7.9,
+        "comment": "Good practical knowledge but overused libraries",
+        "interviewSlot": "AFTERNOON"
+    },
+    {
+        "id": 18,
+        "candidateName": "Aditya Mishra",
+        "roundType": "HR",
+        "interviewStatus": "COMPLETED",
+        "score": 7.5,
+        "comment": "Polite and adaptive; moderate confidence",
+        "interviewSlot": "SLOT_5"
+    },
+    {
+        "id": 19,
+        "candidateName": "Kavita Gupta",
+        "roundType": "L1",
+        "interviewStatus": "REJECTED",
+        "score": 5.2,
+        "comment": "Struggled with coding logic and edge cases",
+        "interviewSlot": "EVENING"
+    },
+    {
+        "id": 20,
+        "candidateName": "Rahul Sen",
+        "roundType": "GD",
+        "interviewStatus": "SELECTED",
+        "score": 8.9,
+        "comment": "Balanced contributions and leadership in discussion",
+        "interviewSlot": "SLOT_2"
+    }
+]

@@ -1,0 +1,99 @@
+import 'package:flutter/material.dart';
+import 'package:hire_pro/core/constants/color_constants.dart';
+import 'package:hire_pro/core/constants/string_constants.dart';
+import 'package:hire_pro/presentation/features/authentication/sign_in/widgets/custom_text_field_signin.dart';
+
+class SignInForm extends StatelessWidget {
+  final GlobalKey<FormState> formKey;
+
+  final TextEditingController emailController;
+  final TextEditingController passwordController;
+  final bool obscurePassword;
+
+  final VoidCallback onPasswordVisibilityToggle;
+
+  final VoidCallback onSubmit;
+  final bool isLoading;
+
+  const SignInForm({
+    super.key,
+    required this.formKey,
+
+    required this.emailController,
+    required this.passwordController,
+    required this.obscurePassword,
+
+    required this.onPasswordVisibilityToggle,
+
+    required this.onSubmit,
+    required this.isLoading,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Form(
+        key: formKey,
+        child: Column(
+          children: [
+            CustomTextFieldSignin(
+              controller: emailController,
+              label: StringConstants.emailLabel,
+              validatorMsg: StringConstants.emailEmpty,
+              keyboardType: TextInputType.emailAddress,
+              emailValidator: true,
+            ),
+            const SizedBox(height: 16),
+
+            CustomTextFieldSignin(
+              controller: passwordController,
+              label: StringConstants.passwordLabel,
+              validatorMsg: StringConstants.passwordEmpty,
+              obscureText: obscurePassword,
+
+              suffixIcon: IconButton(
+                icon: Icon(
+                  obscurePassword ? Icons.visibility_off : Icons.visibility,
+                  color: ColorConstants.highlightColor,
+                ),
+                onPressed: onPasswordVisibilityToggle,
+              ),
+            ),
+
+            const SizedBox(height: 16),
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton(
+                onPressed: isLoading ? null : onSubmit,
+                style: ElevatedButton.styleFrom(
+                  padding: const EdgeInsets.symmetric(vertical: 16),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  backgroundColor: ColorConstants.primaryColor,
+                ),
+                child: isLoading
+                    ? const SizedBox(
+                        height: 20,
+                        width: 20,
+                        child: CircularProgressIndicator(
+                          color: ColorConstants.backgroundColor,
+                          strokeWidth: 2,
+                        ),
+                      )
+                    : Text(
+                        StringConstants.signInTitle.toUpperCase(),
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
+                          color: ColorConstants.backgroundColor,
+                        ),
+                      ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
