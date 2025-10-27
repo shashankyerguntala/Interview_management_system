@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hire_pro/core/constants/color_constants.dart';
+import 'package:hire_pro/core/constants/string_constants.dart';
 
 class HelperFunctions {
   static void showSnackBar(BuildContext context, String message, bool isError) {
@@ -47,5 +48,12 @@ class HelperFunctions {
       default:
         return Colors.grey;
     }
+  }
+
+  static int getCurrentIndex(String location) {
+    if (location.startsWith(StringConstants.managerHome)) return 0;
+    if (location.startsWith(StringConstants.managerInterviewers)) return 1;
+    if (location.startsWith(StringConstants.managerCreate)) return 2;
+    return 0;
   }
 }

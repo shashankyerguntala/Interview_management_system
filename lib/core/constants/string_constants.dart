@@ -36,9 +36,13 @@ class StringConstants {
   static const String managerTitle = "MANAGER";
   static const String homeTitle = "HOME";
 
+  static const managerHome = '/manager/home';
+  static const managerInterviewers = '/manager/interviewers';
+  static const managerCreate = '/manager/create';
+
+
   static const String changeTheme = "THEME";
-  static const String cancel = "Cancel";
-  static const String flagAsSensitive = "Flag as Sensitive";
+
 
   //! admin texts
   static const String l1ClearedCandidates = "L1 Cleared Candidates";
