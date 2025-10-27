@@ -5,5 +5,8 @@ class ApiConstants {
 
   //! AUTH
   static const String login = "/api/auth/login";
+
+  //! manager
   static const String getInterviews = "/api/interview/interviews";
+  static const String getInterviewersList = "/api/user/interviewers";
 }

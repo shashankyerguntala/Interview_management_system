@@ -1,5 +1,5 @@
 
-//! fl charts Package error 
+//! FL Charts Package Error 
 // import 'package:fl_chart/fl_chart.dart';
 // import 'package:flutter/material.dart';
 
@@ -29,7 +29,6 @@
 //         ],
 //       ),
 //     ];
-
 //     return BarChart(
 //       BarChartData(
 //         borderData: FlBorderData(show: false),

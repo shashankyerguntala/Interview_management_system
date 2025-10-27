@@ -12,7 +12,7 @@ import 'package:hire_pro/presentation/widgets/manager_shell.dart';
 
 class AppRoutes {
   static final router = GoRouter(
-    initialLocation: StringConstants.admin,
+    initialLocation: StringConstants.signIn,
     routes: [
       GoRoute(
         path: StringConstants.signIn,
