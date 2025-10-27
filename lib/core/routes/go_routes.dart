@@ -7,7 +7,7 @@ import 'package:hire_pro/presentation/features/interviewer/screen/interviewer_ho
 import 'package:hire_pro/presentation/features/manager/create_employee/screen/create_employee_screen.dart';
 import 'package:hire_pro/presentation/features/manager/home/screens/manager_screen.dart';
 
-import 'package:hire_pro/presentation/features/manager/list_interviewers.dart/screen/list_interviewer_screen.dart';
+import 'package:hire_pro/presentation/features/manager/list_interviewers/screen/list_interviewer_screen.dart';
 import 'package:hire_pro/presentation/widgets/manager_shell.dart';
 
 class AppRoutes {

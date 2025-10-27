@@ -18,7 +18,6 @@ class SignInScreen extends StatelessWidget {
     final formKey = GlobalKey<FormState>();
     final emailController = TextEditingController();
     final passwordController = TextEditingController();
-
     return BlocProvider(
       create: (_) => di<SignInBloc>(),
       child: BlocConsumer<SignInBloc, SignInState>(
@@ -33,7 +32,7 @@ class SignInScreen extends StatelessWidget {
                 context.go(StringConstants.admin);
                 break;
               case UserRole.manager:
-                context.go(StringConstants.manager);
+                context.go(StringConstants.managerHome);
                 break;
               case UserRole.interviewer:
                 context.go(StringConstants.interviewer);
