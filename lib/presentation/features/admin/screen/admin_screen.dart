@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hire_pro/core/constants/color_constants.dart';
 import 'package:hire_pro/core/constants/string_constants.dart';
-import 'package:hire_pro/presentation/features/admin/widgets/bar_chart_widget.dart';
-
 import 'package:hire_pro/presentation/features/admin/widgets/section_header.dart';
 import 'package:hire_pro/presentation/features/admin/widgets/stats_grid.dart';
 
@@ -107,7 +105,8 @@ class AdminScreen extends StatelessWidget {
               icon: Icons.analytics_rounded,
             ),
             const SizedBox(height: 16),
-            BarChartWidget(data: recruitmentData),
+            //! fl_charts package error
+            // BarChartWidget(data: recruitmentData),
           ],
         ),
       ),
